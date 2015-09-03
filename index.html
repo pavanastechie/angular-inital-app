@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <base href="/angularApp/">
+  <meta charset="utf-8">
+  <title>AngularJS + RequireJS + ui-Router App</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+ <!--  <ul class="menu">
+    <li><a href="#/view1">view1</a></li>
+    <li><a href="#/view2">view2</a></li>
+  </ul> -->
+  <a href="profile">Show Profile</a>
+<a href="account">Show Account</a>
+<div ng-view></div>
+
+ <div>Angular Require ui-router app Version: v<span app-version></span></div>
+  <script src="vendor/requirejs/require.js" data-main="js/main.js"></script>
+</body>
+</html>
